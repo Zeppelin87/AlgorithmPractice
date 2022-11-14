@@ -1,0 +1,15 @@
+C:\Users\anken346\Desktop\apps\AlgorithmPractice\bin\Debug\net6.0\AlgorithmPractice.exe
+C:\Users\anken346\Desktop\apps\AlgorithmPractice\bin\Debug\net6.0\AlgorithmPractice.deps.json
+C:\Users\anken346\Desktop\apps\AlgorithmPractice\bin\Debug\net6.0\AlgorithmPractice.runtimeconfig.json
+C:\Users\anken346\Desktop\apps\AlgorithmPractice\bin\Debug\net6.0\AlgorithmPractice.dll
+C:\Users\anken346\Desktop\apps\AlgorithmPractice\bin\Debug\net6.0\AlgorithmPractice.pdb
+C:\Users\anken346\Desktop\apps\AlgorithmPractice\obj\Debug\net6.0\AlgorithmPractice.csproj.AssemblyReference.cache
+C:\Users\anken346\Desktop\apps\AlgorithmPractice\obj\Debug\net6.0\AlgorithmPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anken346\Desktop\apps\AlgorithmPractice\obj\Debug\net6.0\AlgorithmPractice.AssemblyInfoInputs.cache
+C:\Users\anken346\Desktop\apps\AlgorithmPractice\obj\Debug\net6.0\AlgorithmPractice.AssemblyInfo.cs
+C:\Users\anken346\Desktop\apps\AlgorithmPractice\obj\Debug\net6.0\AlgorithmPractice.csproj.CoreCompileInputs.cache
+C:\Users\anken346\Desktop\apps\AlgorithmPractice\obj\Debug\net6.0\AlgorithmPractice.dll
+C:\Users\anken346\Desktop\apps\AlgorithmPractice\obj\Debug\net6.0\refint\AlgorithmPractice.dll
+C:\Users\anken346\Desktop\apps\AlgorithmPractice\obj\Debug\net6.0\AlgorithmPractice.pdb
+C:\Users\anken346\Desktop\apps\AlgorithmPractice\obj\Debug\net6.0\AlgorithmPractice.genruntimeconfig.cache
+C:\Users\anken346\Desktop\apps\AlgorithmPractice\obj\Debug\net6.0\ref\AlgorithmPractice.dll
