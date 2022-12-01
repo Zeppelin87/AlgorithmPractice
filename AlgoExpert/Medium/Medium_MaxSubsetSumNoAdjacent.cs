@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AlgorithmPractice.AlgoExpert.Medium
+﻿namespace AlgorithmPractice.AlgoExpert.Medium
 {
     public static class Medium_MaxSubsetSumNoAdjacent
     {
@@ -12,61 +6,66 @@ namespace AlgorithmPractice.AlgoExpert.Medium
         {
             int[] array = { 75, 105, 120, 75, 90, 135 };
 
-            // Time Complexity: O(n) -- Linear (where 'n' is the length of the array[]).
-            // Space Complexity: O(n) -- Linear.
-            var result = Solution(array);
+            // O(^2) time complexity | O(n^2) space complexity.
+            var result = Solution_Recursive(array, array.Length - 1);
 
-            // Time Complexity: O(n) -- Linear (where 'n' is the length of the array[]).
-            // Space Complexity: O(1) -- Constant.
-            var result2 = Solution_Constant_Space(array);
+            // O(n) time complexity | O(n) space complexity.
+            var result2 = Solution_Memoization(array, new int[array.Length], array.Length - 1);
+
+            // O(n) time complexity | O(n) space complexity.
+            var result3 = Solution_Tabulation(array);
         }
 
-        private static int Solution_Constant_Space(int[] array)
+        private static int Solution_Recursive(int[] array, int i)
         {
-            if (array.Length == 0)
+            if (i < 0)
             {
                 return 0;
             }
 
-            if (array.Length == 1)
+            if (i == 0)
             {
-                return array[0];
+                return array[i];
             }
 
-            int first = array[0];
-            int second = Math.Max(array[0], array[1]);
-            for (int i = 2; i < array.Length; i++)
-            {
-                int temp = second;
-                second = Math.Max(second, first + array[i]);
-                first = temp;
-            }
-
-            return second;
+            return Math.Max(array[i] + Solution_Recursive(array, i - 2), Solution_Recursive(array, i - 1));
         }
 
-        private static int Solution(int[] array)
+        private static int Solution_Memoization(int[] array, int[] cache, int i)
         {
-            if (array.Length == 0)
+            if (i < 0)
             {
                 return 0;
             }
-            else if (array.Length == 1)
+
+            if (i == 0)
             {
-                return array[0];
+                return array[i];
             }
 
-            int[] maxSums = new int[array.Length];
-
-            maxSums[0] = array[0];
-            maxSums[1] = Math.Max(array[0], array[1]);
-
-            for (int i = 2; i < array.Length; i++)
+            if (cache[i] != 0)
             {
-                maxSums[i] = Math.Max(maxSums[i - 1], maxSums[i - 2] + array[i]);
+                return cache[i];
             }
 
-            return maxSums[array.Length - 1];
+            int maxSum = Math.Max(array[i] + Solution_Memoization(array, cache, i - 2), Solution_Memoization(array, cache, i - 1));
+            cache[i] = maxSum;
+
+            return maxSum;
+        }
+
+        private static int Solution_Tabulation(int[] array)
+        {
+            int N = array.Length;
+            int[] dp = new int[N + 1];
+            dp[1] = array[0];
+
+            for (int i = 2; i <= N; i++)
+            {
+                dp[i] = Math.Max(array[i - 1] + dp[i - 2], dp[i - 1]);
+            }
+
+            return dp[N];
         }
     }
 }

@@ -127,6 +127,14 @@ AlgorithmPractice.LeetCode.Medium.Sorting.MinimizeMaximumPairSum_1877.Run();
 
 #endregion
 
+#region Two Sigma
+
+//AlgorithmPractice.LeetCode.TwoSigma.Medium_MaxProductOfSplitBinaryTree_1339.Run();                // Binary Tree, BFS, DFS.
+//AlgorithmPractice.LeetCode.TwoSigma.Medium_LongestStringChain_1048.Run();                         // Dyanmic Programming.
+AlgorithmPractice.LeetCode.TwoSigma.Hard_RandomPickWithBlacklist_710.Run();                         // Hash Table, Binary Search, Sorting.
+
+#endregion
+
 #region AlgoExpert - Easy
 
 //AlgorithmPractice.AlgoExpert.Easy.Easy_TwoNumberSum.Run();
@@ -255,5 +263,65 @@ AlgorithmPractice.AlgoExpert.Hard.Hard_BoggleBoard.Run();                       
 
 // Arrays:
 //AlgorithmPractice.Technique.Arrays.Run();
+
+#endregion
+
+#region Dynamic Programming
+
+//AlgorithmPractice.DynamicProgramming.Recursion_Backtracking.Run();
+//AlgorithmPractice.DynamicProgramming.Knapsack_Problem.Run();
+//AlgorithmPractice.DynamicProgramming.PaintingHouses.Run();
+//AlgorithmPractice.DynamicProgramming.RobHouses.Run();
+//AlgorithmPractice.DynamicProgramming.RodCutting.Run();
+//AlgorithmPractice.DynamicProgramming.LongestIncreasingSubsequence.Run();
+//AlgorithmPractice.DynamicProgramming.CubeJumping.Run();
+//AlgorithmPractice.DynamicProgramming.WordBreakProblem.Run();
+
+#endregion
+
+#region AlgorithmPractice
+
+//
+// Arrays - Kadane's Algorithm
+//
+
+//AlgorithmPractice.Algorithms.Arrays.Kadane.KadanesAlgorithm.Run();
+//AlgorithmPractice.Algorithms.Arrays.Kadane.LeetCode_Medium_MaxSubarray_53.Run();
+//AlgorithmPractice.Algorithms.Arrays.Kadane.LeetCode_Medium_MaxSumCircularSubarray_918.Run();
+//AlgorithmPractice.Algorithms.Arrays.Kadane.LeetCode_Medium_LongestTurbulentSubarray_978.Run();
+
+//
+// Graphs - Dijkstra's Algorithm
+//
+
+//AlgorithmPractice.Algorithms.Graphs.Dijkstra.DijkstrasAlgorithm.Run();
+//AlgorithmPractice.Algorithms.Graphs.Dijkstra.LeetCode_Medium_NetworkDelayTime_743.Run();
+//AlgorithmPractice.Algorithms.Graphs.Dijkstra.LeetCode_Medium_PathWithMaxProbability_1514.Run();
+AlgorithmPractice.Algorithms.Graphs.Dijkstra.LeetCode_Hard_SwimInRisingWater_778.Run();
+
+//
+// Graphs - Prim's Algorithm
+//
+
+//AlgorithmPractice.Algorithms.Graphs.Prim.PrimsAlgorithm.Run();
+//AlgorithmPractice.Algorithms.Graphs.Prim.LeetCode_Medium_MinCostToConnectAllPoints_1584.Run();
+
+//
+// Graphs - Kruskal's Algorithm
+//
+
+AlgorithmPractice.Algorithms.Graphs.Kruskal.KruskalsAlgorithm.Run();
+
+//
+// Graphs - Topological Sort & Kahns's Algorithm
+//
+
+//AlgorithmPractice.Algorithms.Graphs.Topological.TopologicalSort.Run();
+//AlgorithmPractice.Algorithms.Graphs.KahnsTopologicalSort.KahnsAlgorithm.Run();
+//AlgorithmPractice.Algorithms.Graphs.Topological.LeetCode_Medium_CourseSchedule_207.Run();
+//AlgorithmPractice.Algorithms.Graphs.Topological.LeetCode_Medium_CourseSchedule2_210.Run();
+//AlgorithmPractice.Algorithms.Graphs.Topological.LeetCode_Medium_CourseScheduleIV_1462.Run();
+AlgorithmPractice.Algorithms.Graphs.Topological.LeetCode_Hard_SortItemsRespectingDependencies_1203.Run();
+//AlgorithmPractice.Algorithms.Graphs.Topological.LeetCode_Hard_AlienDictionary_269.Run();
 
 #endregion

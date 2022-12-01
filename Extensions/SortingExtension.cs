@@ -17,6 +17,11 @@
             Console.WriteLine(message + "[{0}]", string.Join(", ", array));
         }
 
+        public static void ConsoleLog(List<string> array)
+        {
+            Console.WriteLine("[{0}]", string.Join(", ", array));
+        }
+
         public static void ConsoleLog(List<char> array)
         {
             Console.WriteLine("[{0}]", string.Join(", ", array));
