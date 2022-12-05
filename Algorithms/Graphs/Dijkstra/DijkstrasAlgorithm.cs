@@ -84,8 +84,8 @@
 
         private static Dictionary<int, int> SPath(int[][] edges, int src, int n)
         {
+            // Create adjacency list.
             var adjacencyList = new Dictionary<int, List<int[]>>();
-
             for (int i = 1; i < n + 1; i++)
             {
                 adjacencyList.Add(i, new List<int[]>());
@@ -124,8 +124,7 @@
 
                     if (!shortestPathMap.ContainsKey(neighborNode))
                     {
-                        int totalWeight = weight + neighborWeight;
-                        minHeap.Enqueue(new int[] { neighborNode, totalWeight }, totalWeight);
+                        minHeap.Enqueue(new int[] { neighborNode, weight + neighborWeight }, weight + neighborWeight);
                     }
                 }
             }

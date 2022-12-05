@@ -90,6 +90,9 @@
 //AlgorithmPractice.LeetCode.Easy.Sorting.TwoSumLessThanK_1099.Run();
 //AlgorithmPractice.LeetCode.Easy.Sorting.SpecialArrayWithXElements_1608.Run();
 
+using AlgorithmPractice.Algorithms.Arrays.SlidingWindowVariableSize;
+using AlgorithmPractice.Algorithms.Arrays.TwoPointers;
+
 AlgorithmPractice.LeetCode.Easy.Sorting.FairCandySwap_888.Run();
 AlgorithmPractice.LeetCode.Easy.Sorting.IndexPairsOfAString_1065.Run();
 AlgorithmPractice.LeetCode.Easy.Sorting.Find3DigitEvenNumbers_2094.Run();
@@ -284,44 +287,70 @@ AlgorithmPractice.AlgoExpert.Hard.Hard_BoggleBoard.Run();                       
 //
 // Arrays - Kadane's Algorithm
 //
-
 //AlgorithmPractice.Algorithms.Arrays.Kadane.KadanesAlgorithm.Run();
 //AlgorithmPractice.Algorithms.Arrays.Kadane.LeetCode_Medium_MaxSubarray_53.Run();
 //AlgorithmPractice.Algorithms.Arrays.Kadane.LeetCode_Medium_MaxSumCircularSubarray_918.Run();
 //AlgorithmPractice.Algorithms.Arrays.Kadane.LeetCode_Medium_LongestTurbulentSubarray_978.Run();
 
 //
+// Arrays - Sliding Window Fixed Size
+//
+//AlgorithmPractice.Algorithms.Arrays.SlidingWindowFixedSize.SlidingWindow_FixedSize_Algorithm.Run();
+//AlgorithmPractice.Algorithms.Arrays.SlidingWindowFixedSize.LeetCode_Easy_ContainsDuplicateII_219.Run();
+//AlgorithmPractice.Algorithms.Arrays.SlidingWindowFixedSize.LeetCode_Medium_NumberOfSubarraysWithSizeK_1343.Run();
+
+//
+// Arrays - Sliding Window Variable Size
+//
+//AlgorithmPractice.Algorithms.Arrays.SlidingWindowVariableSize.SlidingWindow_VariableSize_Algorithm.Run();
+//AlgorithmPractice.Algorithms.Arrays.SlidingWindowVariableSize.LeetCode_Medium_MinSizeSubarraySum.Run();
+//AlgorithmPractice.Algorithms.Arrays.SlidingWindowVariableSize.LeetCode_Medium_LongestSubstringWithoutRepeatingCharacters_3.Run();
+AlgorithmPractice.Algorithms.Arrays.SlidingWindowVariableSize.LeetCode_Medium_LongestRepeatingCharacterReplacement_424.Run();                   // TODO
+
+//
+// Arrays - Two Pointers
+//
+//AlgorithmPractice.Algorithms.Arrays.TwoPointers.TwoPointers_Algorithm.Run();
+//AlgorithmPractice.Algorithms.Arrays.TwoPointers.LeetCode_Easy_ValidPalindrome_125.Run();
+//AlgorithmPractice.Algorithms.Arrays.TwoPointers.LeetCode_Medium_TwoSum2_InputArrayIsSorted_167.Run();
+//AlgorithmPractice.Algorithms.Arrays.TwoPointers.LeetCode_Easy_RemoveDuplicatesFromSortedArray_26.Run();                                       // Practice
+//AlgorithmPractice.Algorithms.Arrays.TwoPointers.LeetCode_Medium_RemoveDuplicatesFromSortedArray2_80.Run();                                    // Practice
+//AlgorithmPractice.Algorithms.Arrays.TwoPointers.LeetCode_Medium_ContainerWithMostWater_11.Run();
+//AlgorithmPractice.Algorithms.Arrays.TwoPointers.LeetCode_Hard_TrappingRainWater_42.Run();                                                     // Practice
+
+//
+// Arrays - Prefix Sums
+//
+AlgorithmPractice.Algorithms.Arrays.PrefixSums.PrefixSums_Algorithm.Run();
+
+//
 // Graphs - Dijkstra's Algorithm
 //
-
 //AlgorithmPractice.Algorithms.Graphs.Dijkstra.DijkstrasAlgorithm.Run();
 //AlgorithmPractice.Algorithms.Graphs.Dijkstra.LeetCode_Medium_NetworkDelayTime_743.Run();
 //AlgorithmPractice.Algorithms.Graphs.Dijkstra.LeetCode_Medium_PathWithMaxProbability_1514.Run();
-AlgorithmPractice.Algorithms.Graphs.Dijkstra.LeetCode_Hard_SwimInRisingWater_778.Run();
+AlgorithmPractice.Algorithms.Graphs.Dijkstra.LeetCode_Hard_SwimInRisingWater_778.Run();                                                         // TODO
 
 //
 // Graphs - Prim's Algorithm
 //
-
 //AlgorithmPractice.Algorithms.Graphs.Prim.PrimsAlgorithm.Run();
 //AlgorithmPractice.Algorithms.Graphs.Prim.LeetCode_Medium_MinCostToConnectAllPoints_1584.Run();
 
 //
 // Graphs - Kruskal's Algorithm
 //
-
-AlgorithmPractice.Algorithms.Graphs.Kruskal.KruskalsAlgorithm.Run();
+AlgorithmPractice.Algorithms.Graphs.Kruskal.KruskalsAlgorithm.Run();                                                                            // TODO
 
 //
 // Graphs - Topological Sort & Kahns's Algorithm
 //
-
 //AlgorithmPractice.Algorithms.Graphs.Topological.TopologicalSort.Run();
 //AlgorithmPractice.Algorithms.Graphs.KahnsTopologicalSort.KahnsAlgorithm.Run();
 //AlgorithmPractice.Algorithms.Graphs.Topological.LeetCode_Medium_CourseSchedule_207.Run();
 //AlgorithmPractice.Algorithms.Graphs.Topological.LeetCode_Medium_CourseSchedule2_210.Run();
 //AlgorithmPractice.Algorithms.Graphs.Topological.LeetCode_Medium_CourseScheduleIV_1462.Run();
-AlgorithmPractice.Algorithms.Graphs.Topological.LeetCode_Hard_SortItemsRespectingDependencies_1203.Run();
+AlgorithmPractice.Algorithms.Graphs.Topological.LeetCode_Hard_SortItemsRespectingDependencies_1203.Run();                                       // TODO
 //AlgorithmPractice.Algorithms.Graphs.Topological.LeetCode_Hard_AlienDictionary_269.Run();
 
 #endregion
